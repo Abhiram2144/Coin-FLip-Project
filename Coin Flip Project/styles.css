@@ -7,5 +7,41 @@ body{
     margin-right: 15px;
 }
 .navicons{
-    opacity: 0.75;
+opacity: 0.75;
+}
+.unicur{
+    font-family: 'Arima', cursive;
+}
+.rampcur{
+    font-family: 'Rampart One', cursive;
+}
+.heading{
+    font-size: 175px;
+    
+}
+.text{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.foot{
+    text-align: center;
+}
+.imgdiv{
+margin-left: 550px;
+margin-top: 50px;
+}
+.def-img{
+    height: 400px;
+}
+.btn{
+    background-color: #BFA2DB;
+    border-color: #F3F1F5;
+    margin-top: 75px;
+    /* width: 100px; */
+}
+#result-line{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-family: 'Arima', cursive;
 }
