@@ -1,6 +1,7 @@
 body{
     background-color: #F3F1F5;
     background-image: -webkit-linear-gradient(61deg, #BFA2DB 50%,#F3F1F5 50%);
+    background-repeat: no-repeat;
     color: black;
 }
 .navmar{
@@ -22,26 +23,32 @@ opacity: 0.75;
 .text{
     margin-top: 20px;
     margin-bottom: 100px;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 .foot{
     text-align: center;
 }
 .imgdiv{
-margin-left: 550px;
+margin-left: 500px;
 margin-top: 50px;
 }
 .def-img{
     height: 400px;
+   
 }
 .btn{
     background-color: #BFA2DB;
     border-color: #F3F1F5;
     margin-top: 75px;
-    /* width: 100px; */
+    width: 250px;
+    margin-left: 75px;
 }
 #result-line{
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 90px;
     font-family: 'Arima', cursive;
+    width: max-content;
+}
+.container-fluid{
+    padding: 0 10%;
 }

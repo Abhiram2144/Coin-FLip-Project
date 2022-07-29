@@ -107,19 +107,36 @@
 
     <!-- Apply GRID SYSTEM inorder to maintain good layout on sm and md size windows -->
     <!-- CONTENT -->
-    <div class="text d-flex flex-row">
-        <h1 class="rampcur heading">Flip <br>A <br> Coin</h1>
-        <div class="imgdiv d-flex flex-column">
-            <img src="images/starting_image.png" alt="default" class="def-img">
-            <button type="button" class="btn btn-outline-light btn-lg">Click For The Results</button>
-            <h3 id="result-line">Wait for the result</h3>
+
+    <div class="container-fluid container-md">
+        <div class="row justify-content-evenly">
+            <div class="text  col col-lg-4 col-md-6 col-sm-12">
+                <h1 class="rampcur heading">Flip <br>A <br> Coin</h1>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+                <div class="imgdiv row">
+                    <div class="col"><img src="images/starting_image.png" alt="default" class="def-img" id="coinimg"></div>
+                    
+                    <form action="/" method="post">
+                    <div class="col"><button type="button" id="butt" class="btn btn-outline-light btn-lg">Click For The Results</button></form> 
+                        <h3 id="result-line">Wait for the result</h3>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </div>
+
+
+    
     <!-- CONTENT -->
 
 
 </body>
 
 <footer class="foot"> &copy; by Abhiram2144</footer>
+<script src="index.js">
+
+</script>
 
 </html>
